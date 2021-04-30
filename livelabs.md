@@ -169,7 +169,7 @@ In this lab, you will:
     the **myblock** is ready to use like any other block volumes.  
 
 ## Acknowledgements
-* **Author** - <John Adewumi, Solution, Architect, OCI>
+* **Author** - <John Adewumi, Solution Architect, OCI>
 * **Contributors** -  <Orlando Gentils, OCI> -- optional
 * **Last Updated By/Date** - <Name, Group, Month Year>
 * **Workshop (or Lab) Expiry Date** - <Month Year> -- optional, use this when you are using a Pre-Authorized Request (PAR) URL to an object in Oracle Object Store.
