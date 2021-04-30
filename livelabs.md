@@ -90,7 +90,7 @@ In this lab, you will:
 
     ![](images/sample7.png)
 
-**fter you attach, you will have this view**
+**After you attach, you will have this view**
 
     ![](images/sample8.png)
 
