@@ -65,7 +65,7 @@ In this lab, you will:
 
     ![](images/sample4.png)
 
-5. To navigate to your **instance**. Click on the navigation menu in the upperleft, navigate to **compute** and select **instances**. click on your desired **instance** yOU would like to attach
+5. To navigate to your **Instance**. Click on the navigation menu in the upperleft, navigate to **Compute** and select **Instances**. click on your desired **Instance** yOU would like to attach
 
     ![](images/sample5.png)
 
@@ -76,7 +76,7 @@ In this lab, you will:
 
 <!-- Images -->
 
-1. On your **instance**, navigate to **resources** and select **Atached Block Volumes** and click **Attached Block Volume**.
+1. On your **Instance**, navigate to **Resources** and select **Atached Block Volumes** and click **Attached Block Volume**.
 
     ![](images/sample6.png)
 
@@ -103,7 +103,7 @@ In this lab, you will:
     ![](images/sample10.png)
 
 
-4. **SSH** into your instance and log in as **root**.
+4. **SSH** into your instance and log in as **Root**.
 
 
   	```
