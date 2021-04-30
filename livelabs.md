@@ -90,8 +90,8 @@ In this lab, you will:
 
     ![](images/sample7.png)
 
-**After you attach, you will have this view**
-
+    After you attach, you will have this view
+    
     ![](images/sample8.png)
 
 3. On the attached block, click on the 3dots and click on the iSCSI commamnd and information.
