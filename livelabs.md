@@ -42,8 +42,8 @@ In this lab, you will:
 ## **Step 1**: Create a Block Volume
 
 <!-- Images -->
-
-1. Click on the navigation menu in the upperleft, navigate to storage and select Block Volumes
+**
+1. Click on the navigation menu in the upperleft, navigate to **storage** and select **Block Volumes**
 
     ![](images/sample1.png)
 
@@ -51,7 +51,7 @@ In this lab, you will:
 
     ![image alt text](images/sample1.png)
 
-2. Click Create Block Volume, make sure you are in your compartment.
+2. Click Create **Block Volume**, make sure you are in your compartment.
 
     ![](images/sample2.png)
 
@@ -69,7 +69,7 @@ In this lab, you will:
 
     ![](images/sample4.png)
 
-5. To navigate to your instance. Click on the navigation menu in the upperleft, navigate to compute and select instances. click on your desired instace ypu would like to attach
+5. To navigate to your **instance**. Click on the navigation menu in the upperleft, navigate to **compute** and select **instances**. click on your desired **instance** yOU would like to attach
 
     ![](images/sample5.png)
 
@@ -80,12 +80,12 @@ In this lab, you will:
 
 <!-- Images -->
 
-1. On your instance, navigate to resources and select Atached Block Volumes and click Attached Block Volume.
+1. On your **instance**, navigate to **resources** and select **Atached Block Volumes** and click **Attached Block Volume**.
 
     ![](images/sample6.png)
 
 
-2. On  the attach block volume.
+2. On the attach block volume.
 
     - Volume Attachment type : iSCSI
     - Volume: Select the block volume you created
@@ -107,11 +107,11 @@ In this lab, you will:
     ![](images/sample10.png)
 
 
-4. SSH into your instance and log in as root.
+4. **SSH** into your instance and log in as **root**.
 
 
   	```
-    <copy>ssh -i <ssh-key-file></copy>
+    <copy>ssh -i opc@publicip></copy>
     ```
 
 5. Paste the Commands for connecting and also check the block volume attached.
@@ -124,7 +124,7 @@ In this lab, you will:
     ```
    the attached volume is shown as 1TB
 
-6. mount the attached block volume to a directory.
+6. Mount the attached block volume to a directory.
 
     - mkdir myblock
     - ls
@@ -141,7 +141,7 @@ In this lab, you will:
     ![](images/sample13.png)   
 
 
-8. make sure its est format.
+8. Making sure the ext is formated.
 
    - mkfs.ext4 /dev/sdb
    - lsblk
@@ -152,7 +152,7 @@ In this lab, you will:
     ![](images/sample14.png)   
 
 
-9. Associating the blkid number with **myblock**
+9. Associating the **blkid** number with **myblock**
 
     - vi /etc/fstab
     - Copy the UUID no and input in the file configuration
