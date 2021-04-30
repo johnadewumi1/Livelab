@@ -155,7 +155,7 @@ In this lab, you will:
 9. Associating the blkid number with **myblock**
 
     - vi /etc/fstab
-    - Copy the UUID no and input in the file configuration/
+    - Copy the UUID no and input in the file configuration
 
     ![](images/sample15.png)   
     **wq!**
@@ -163,7 +163,7 @@ In this lab, you will:
 10. Mount **myblock** 
     - mount /myblock
     - lsblk 
-    
+
     ![](images/sample16.png)   
 
     the **myblock** is ready to use like any other block volumes.  
