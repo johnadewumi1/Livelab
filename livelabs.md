@@ -130,7 +130,7 @@ In this lab, you will:
     - ls
     - blkid /dev/sdb
 
-    [](images/sample12.png)  
+    ![](images/sample12.png)   
 
 7. Creat partition to mount the block volume.
 
@@ -138,7 +138,7 @@ In this lab, you will:
    - sgdisk -N 1 /dev/sdb   
    - lsblk    
 
-    [](images/sample13.png) 
+    ![](images/sample13.png)   
 
 
 8. make sure its est format.
@@ -149,22 +149,22 @@ In this lab, you will:
    to check for the blkid
    - blkid /dev/sdb1
 
-    [](images/sample14.png) 
+    ![](images/sample14.png)   
+
 
 9. Associating the blkid number with **myblock**
 
     - vi /etc/fstab
     - Copy the UUID no and input in the file configuration/
 
-    [](images/sample15.png) 
+    ![](images/sample15.png)   
     **wq!**
 
 10. Mount **myblock** 
     - mount /myblock
     - lsblk 
-
-    [](images/sample16.png)
-
+    ![](images/sample16.png)   
+    
     the **myblock** is ready to use like any other block volumes.  
 
 ## Acknowledgements
