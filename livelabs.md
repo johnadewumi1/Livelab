@@ -47,10 +47,6 @@ In this lab, you will:
 
     ![](images/sample1.png)
 
-    The image alt text is optional.
-
-    ![image alt text](images/sample1.png)
-
 2. Click Create **Block Volume**, make sure you are in your compartment.
 
     ![](images/sample2.png)
