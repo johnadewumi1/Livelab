@@ -163,6 +163,7 @@ In this lab, you will:
 10. Mount **myblock** 
     - mount /myblock
     - lsblk 
+    
     ![](images/sample16.png)   
 
     the **myblock** is ready to use like any other block volumes.  
